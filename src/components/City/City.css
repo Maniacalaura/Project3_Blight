@@ -1,0 +1,64 @@
+.nextLocation, .heal {
+    display: block;
+    padding-top: 0;
+    margin: 0;
+}
+
+.map-button {
+    background-color:#15498B;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-family: 'Oswald', sans-serif;
+    font-weight:500;
+    text-transform:uppercase;
+    text-decoration:none;
+    font-size: 10px;
+  }
+
+.map-button:hover .map-button {
+    background-color: #484848;
+}
+
+.city {
+      color: whitesmoke
+  }
+
+/* div:empty {
+    display: none;
+}  */
+
+.city .nextLocation{ 
+    position: relative;
+    font-size: 1.5rem;
+    padding:0 15px 15px 15px;
+    margin-bottom: 15px;
+    margin-right: 30px;
+    background: #007A60;
+    color: #fff;
+  }
+
+  .heal {
+    position: relative;
+    font-size: 1.5rem;
+    padding:0 15px 15px 15px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    margin-right: 30px;
+    background: #007A60;
+    color: #fff;
+  }
+
+  h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight:500;
+    text-transform:uppercase;
+    text-decoration:none;
+    font-size: 15px;
+  }
